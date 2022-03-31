@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest",
+    "lint": "eslint .",
     "eject": "expo eject"
   },
   "dependencies": {
@@ -21,7 +22,9 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "eslint": "^7.0"
   },
   "jest": {
     "preset": "jest-expo"
